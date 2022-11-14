@@ -20,13 +20,27 @@ if(this.value === 'night')
     target.style.backgroundColor = 'black';
     target.style.color= 'white';
 this.value = 'day';   
+var alist = document.querySelectorAll('a');
+        var i = 0;
+        while ( i < alist.length) {
+            alist[i].style.color = 'powderblue';
+            console.log(alist[i]);
+            i = i + 1 ;
+        }
 } 
 else 
-    {target = document.querySelector('body');
+    {var target = document.querySelector('body');
     target.style.backgroundColor = 'white';
     target.style.color= 'black';
   this.value = 'night';   
-}"><br>
+  var alist = document.querySelectorAll('a');
+        var i = 0;
+        while ( i < alist.length) {
+            alist[i].style.color = 'powderblue';
+            console.log(alist[i]);
+            i = i + 1 ;
+        }
+}">
 <h2>CSS란 무엇인가?</h2>
 <p style="margin-top: 40px;">
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation 
