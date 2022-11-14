@@ -6,6 +6,16 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <script>
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while ( i < alist.length) {
+            alist[i].style.color = 'powderblue';
+            console.log(alist[i]);
+            i = i + 1 ;
+        }
+    </script>
+    
 <h1><a href="index.html">WEB</a></h1>
 <div id="grid">
 <ol>
@@ -14,9 +24,22 @@
 <li><a href="3.html">JavaScript</a></li>
 </ol>
 <div>
+<input type="button" value="night" onclick="
+if(this.value === 'night') 
+    {
+    document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color= 'white';
+this.value = 'day';   
+} 
+else 
+    {
+    document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color= 'black';
+  this.value = 'night';   
+}"><br>
 <h2>HTML이란 무엇인가?</h2>
 <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" title="HTML5 specification">Hypertext Markup 
-Language(HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web 
+Language(HTML)</a> is the standard markup language for<strong>creating <u>web</u> pages</strong> and web 
 applications.
 Web browsers receive HTML documents from a web server or from local storage and render the documents into 
 multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the 
