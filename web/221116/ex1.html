@@ -49,22 +49,25 @@ coworkers.showAll();
   <script>
     function sum(left, right) {
      document.write(left+right+'<br>');
-     
      }
-     sum(2,3);
-     sum(3,4); 
+     
+    function sumColorRed(left, right) {
+      document.write('<div style="color: red;">' + left+right+'</div><br>');}
     
-     function sumColorRed(left, right) {
-    document.write('<div style="color: red;">' + left+right+'</div><br>');}
-    sumColorRed(1,100);
     
-    //sum2 함수를 따로 빼서 사용중 문자열
     function sum2(left, right) {
-      return(left,right);//<li>함수의 결과값만 따로 재사용 하기 위해서 리턴값 활용//
-    }
-    sum2(1,1)
-      
-     </script>
+      return left,right
+    }  
+    //<li>함수의 결과값만 따로 재사용 하기 위해서 리턴값 활용//
+    //sum2 함수를 따로 빼서 사용중 문자열
+    
+    sum(2,3);
+    sum(3,4); 
+    sumColorRed(1,100);
+    document.write('sum2 함수를 따로 빼서 사용중. 문자열 결과로 나와서, 임의로 변경.');
+    document.write('<div style="color: red">'+ sum2(2,3)+'</div><br>');
+    document.write('<div style="font-size: 3rem">'+sum2(2,3)+'</div><br>');
+  </script>
  
  <h1>함수 사용 테스트 중</h1>
   <script>
