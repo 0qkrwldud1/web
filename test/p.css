@@ -1,0 +1,50 @@
+#grid_header{
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 80em;
+    padding-top: 20px;
+    
+}
+#grid_header {
+    display: grid;
+}
+#grid_header a {
+    text-decoration: none;
+    color: black;
+}
+#grid_header ul li {
+    list-style: none;
+    padding: 0 10px;
+    float:left;
+}
+.header_top {
+    font-size: 15px;
+    padding-left: 65%;
+}
+#grid_category{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    }
+.card {
+    width: 90%;
+}
+h5{
+    text-align: center;
+}
+#logo {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+.banddy{
+    font-weight: bold;
+    font-size: 45px;
+}
+/* oooooooooooo */
+a:hover, a:focus{
+    text-decoration: none;
+    outline: none;
+}
+#contents{
+    padding: 50px;  
+}
