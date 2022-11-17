@@ -24,27 +24,41 @@
 #grid_category{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 350;
+    margin-left: 100px;
+    margin-right: 100px;
     }
 .card {
     width: 90%;
+    text-align: center;
 }
 h5{
     text-align: center;
 }
 #logo {
+    display: grid;
     margin-bottom: 50px;
     margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
     }
 .banddy{
     font-weight: bold;
     font-size: 45px;
 }
-/* oooooooooooo */
-a:hover, a:focus{
-    text-decoration: none;
-    outline: none;
+.span{
+    margin: 50px;
 }
-#contents{
-    padding: 50px;  
+#form3{
+    margin-left: 400px;
+}
+.a{
+    margin-left: 45px;
+}
+#foot{
+   margin-top: 300PX;
+   margin-left: 40px;
+}
+#ar{
+    margin-top: 100px;
+    margin-bottom: 300px;
 }
