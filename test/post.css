@@ -1,15 +1,20 @@
  /*START GENERAL CSS FOR BACKEND*/
  @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css";
- @import url(//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic);
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap');
 
  * {
-   font-family: Lato;
- }
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
 
  body {
    font-size: 16px;
    background: white;
    margin: 1px 0px 0px 0px;
+   background: linear-gradient(
+       90deg,
+       rgb(254, 255, 253) 0%,
+       rgba(118, 184, 82, 1) 50%
+     );
  }
 
  h1,
@@ -28,6 +33,7 @@
 
  h2 {
    font-size: 1.8em;
+   color: #414141;
  }
 
  h3 {
@@ -134,7 +140,7 @@
  }
 
  .sidebar-menu .menu-item {
-   color: #8a8787;
+   color: #a8a8a8;
    font-size: 1em;
    font-weight: 700;
    text-transform: uppercase;
@@ -153,11 +159,12 @@
  }
 
  .main-container {
-   background: rgb(243, 243, 243);
+   background: rgb(235, 234, 234);
    border: 1px solid rgba(0, 0, 0, .12);
    border-radius: 5px;
    padding: 25px 30px;
    margin-bottom: 15px;
+   opacity: 0.92;
  }
 
  .msh-logo {
@@ -308,8 +315,8 @@
 
  button.publish,
  button.update {
-   background: black;
-   border-color: black;
+   background: rgb(77, 77, 77);
+   border-color: rgb(77, 77, 77);
    color: white;
  }
 
@@ -343,7 +350,7 @@ display: grid;
 }
 #grid_header a {
 text-decoration: none;
-color: black;
+color: white;
 }
 #grid_header ul li {
 list-style: none;
@@ -359,7 +366,15 @@ margin-top: 70PX;
 margin-left: 40px;
 padding-bottom: 2%;
 padding-left: 1%;
+color: rgb(131, 131, 131);
 }
+a:link {
+  color : rgb(131, 131, 131);
+}
+a:visited {
+  color : rgb(131, 131, 131);
+}
+
 .banddy{
 font-weight: bold;
 font-size: 60px;
@@ -367,5 +382,6 @@ margin-left: 45px;
 margin-bottom: 50px;
 margin-top: 50px;
 padding: 10px;
+color: white;
 }
  /*END CSS FOR CREATE BLOG PAGE*/
