@@ -43,7 +43,7 @@ body {
   background: linear-gradient(
        90deg,
        rgb(254, 255, 253) 0%,
-       rgba(118, 184, 82, 1) 50%
+       rgb(196, 206, 192) 50%
      );
 }
 a.btn {
@@ -247,10 +247,13 @@ h5{
   border-bottom: 1px solid gray;
   }
 .banddy{
-  font-weight: bold;
+  font-weight: 900;
   font-size: 60px;
   margin-left: 45px;
-  color: white;
+  color: rgb(70, 69, 69);
+  text-shadow:5px 5px 15px rgb(255, 254, 254); 
+
+
 }
 .span{
   margin: 50px;

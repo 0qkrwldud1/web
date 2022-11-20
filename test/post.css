@@ -13,7 +13,7 @@
    background: linear-gradient(
        90deg,
        rgb(254, 255, 253) 0%,
-       rgba(118, 184, 82, 1) 50%
+       rgb(134, 182, 194) 50%
      );
  }
 
@@ -383,5 +383,6 @@ margin-bottom: 50px;
 margin-top: 50px;
 padding: 10px;
 color: white;
+text-shadow:5px 5px 15px rgb(255, 254, 254); 
 }
  /*END CSS FOR CREATE BLOG PAGE*/

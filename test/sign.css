@@ -29,7 +29,7 @@
     font-weight: bold;
     font-size: 60px;
     margin-left: 45px;
-    color: #becebe;
+    color: #f1f1f1;
 }
 #up_a{
     margin-top: 7%;
@@ -160,7 +160,7 @@ a:hover{
      background: linear-gradient(
        90deg,
        rgb(254, 255, 253) 0%,
-       rgba(118, 184, 82, 1) 50%
+       rgb(135, 185, 107) 50%
      );
      font-family: "Roboto", sans-serif;
      -webkit-font-smoothing: antialiased;
