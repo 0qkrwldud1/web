@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .h-light {
+    position: absolute;
+  }
+.h-light:nth-of-type(1) {
+    bottom: 50vw;
+    right: 50vw;
+    width: 10vw;
+    height: 20vw;
+    border-radius: 40%;
+    transform: rotateZ(-50deg);
+    background-image: radial-gradient(rgba(81, 137, 251, 0.45) 50%, rgba(40, 125, 210, 0.45), transparent);
+    box-shadow: -1vw -1vw 2vw 1vw rgba(131, 171, 252, 0.1);
+    filter: blur(1vw);
+}
+.h-light:nth-of-type(2) {
+    background-image:radial-gradient(rgba(221, 151, 180, 0.45) 0.2%, #db7b7b 0.5%, transparent);
+    bottom: 20vw;
+    right: 70vw;
+    width: 10vw;
+    height: 10vw;
+    transform: rotatex(150deg);
+    border-radius: 40%;
+    filter: blur(0.2vw);
+    
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="h-lights">
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+      </div>
+</body>
+</html>
